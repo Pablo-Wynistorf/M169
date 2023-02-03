@@ -1,6 +1,6 @@
 services:
   m169_container:
-    image: M169-Container-website
+    image: pablo06/m169-container-webserver
     container_name: pablos-container
     restart: unless-stopped
     port:
