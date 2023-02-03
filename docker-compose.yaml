@@ -3,3 +3,5 @@ services:
     image: M169-Container-website
     container_name: pablos-container
     restart: unless-stopped
+    port:
+      - 8080:80
