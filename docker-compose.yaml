@@ -7,4 +7,3 @@ services:
       - 8080:80
     volumes:
       - ./data:/usr/share/nginx/html
-    
